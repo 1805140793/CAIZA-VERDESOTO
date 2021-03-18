@@ -2,3 +2,8 @@
 a{
   text-align: center;
 }
+
+.btn{
+ padding: 6px;
+ border-radius: 10px;
+}
