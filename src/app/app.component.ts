@@ -12,13 +12,13 @@ export class AppComponent {
 
   @Input() valor1?:string;
   @Input() valor2?:string;
-  
+
   impresion= "";
+  resultado=<HTMLInputElement>document.getElementById("txtresultado");
 
 
   // constructor(){}
   sumar(){
-    let resultado=<HTMLInputElement>document.getElementById("txtresultado");
     // let proceso=<HTMLInputElement>document.getElementById("process");
 
     // let valor2="";
@@ -80,7 +80,7 @@ export class AppComponent {
 
       console.log(impresion.reverse());
     // }
-    //proceso.value = this.impresion;
+    //resultado.value = impresion.reverse().toString();
   }
 }
 
